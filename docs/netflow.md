@@ -1,6 +1,6 @@
-### Сбор информации трафика по netflow
+### Collecting traffic information with netflow
 
-Установим flow-tools
+Let try install **flow-tools**
 
 Fedora:
 

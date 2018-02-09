@@ -1,13 +1,14 @@
 # djing
-Попытка интернет биллинга. djing сокращение от **dj**ango-bill**ing**. Это web интерфейс управления абонентами интернет-провайдера.
-Сейчас идёт тестирвоание работы на Mikrotik, функционал пока минимальный, т.к. пишу в свободное время. Работа планируется в реальных условиях и на реальных абонентах.
-Использовано python 3, django 1.11, bootstrap 3, и другое в файле requirements.txt
+Trying to create billing system for internet service providers. DjIng is a abbreviation from  **dj**ango-bill**ing**.
+This is a web-interface for management subscribers of internet providers.
+Now testing is underway on **mikrotik**, work is planned in real situation.
+Used python3, Django1.11, bootstrap3, and others requirements in file *requirements.txt*.
 
-P.S. Возможно понадобится **Python 3.5** и выше из-за указания статических типов. [typing — Support for type hints](https://docs.python.org/3/library/typing.html).
-Вы можете использовать билиотеку [mypy](http://www.mypy-lang.org/) для старших версий python.
+P.S. You may need to add **Python 3.5** and higer because i am use type hints. [typing — Support for type hints](https://docs.python.org/3/library/typing.html).
+You may use library [mypy](http://www.mypy-lang.org/) for old versions of python, python2 and python lower than 3.5.
 
-## Содержание
-* [Установка](./docs/install.md)
-* [Разработка расширений](./docs/dev.md)
-* [Сбор информации трафика по netflow](./docs/netflow.md)
-* [Работа с представлениями](./docs/views.md)
+## Summary
+* [Install](./docs/install.md)
+* [Development an extensions](./docs/dev.md)
+* [Collecting traffic information with *netflow*](./docs/netflow.md)
+* [Work with views](./docs/views.md)
